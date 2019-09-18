@@ -12,6 +12,7 @@ QA3 = ["You LOVE Juicy Fruit Gum. You take out your gum in class and an classmat
 qList = [QA1, QA2, QA3]
 currentSet = qList[num]
 root = Tk()
+root.geometry("1000x100+200+300")
 
 def resp1 ():
     print("resp1")
