@@ -189,10 +189,13 @@ def labelUpdate():
 
 def displayScore():
     global percentage
-    theQuestion.set("Your'e Score:")
+    theQuestion.set("Score:")
     response1.set("")
     response2.set(percentage)
     response3.set("")
+    button1.pack_forget()
+    button2.pack_forget()
+    button3.pack_forget()
 
 
 topFrame = Frame(root)
